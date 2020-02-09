@@ -72,9 +72,7 @@ class absenteeism_model():
             df.columns = column_names
  
             # re-order the columns in df
-            column_names_reordered = ['Reason_1', 'Reason_2', 'Reason_3', 'Reason_4', 'Date', 'Transportation Expense', 
-                                      'Distance to Work', 'Age', 'Daily Work Load Average', 'Body Mass Index', 'Education', 
-                                      'Children', 'Pet', 'Absenteeism Time in Hours']
+            column_names_reordered = ['Reason_1', 'Reason_2', 'Reason_3', 'Reason_4', 'Date', 'Transportation Expense', 'Distance to Work', 'Age', 'Daily Work Load Average', 'Body Mass Index', 'Education', 'Children', 'Pet', 'Absenteeism Time in Hours']
             df = df[column_names_reordered]
        
             # convert the 'Date' column into datetime
